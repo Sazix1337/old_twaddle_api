@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "module": "es6",
+      "target": "es6",
+      "declarationDir": "dist",
+      "moduleResolution": "node",
+      "pretty": true,
+      "declaration": true,
+      "noImplicitAny": true,
+      "removeComments": true,
+      "noImplicitReturns": true,
+      "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+      "*.ts"
+  ]
+}

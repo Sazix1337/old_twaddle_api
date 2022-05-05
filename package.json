@@ -1,0 +1,30 @@
+{
+  "name": "client-api",
+  "version": "1.15.3",
+  "description": "The \"Twaddle\" client api.",
+  "main": "twaddle.js",
+  "scripts": {
+    "dev": "tsc twaddle.ts -esModuleInterop && tsc ./exports/*.ts && tsc ./posts/*.ts && node twaddle.js"
+  },
+  "keywords": [
+    "api",
+    "js",
+    "ts"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.24",
+    "axios": "^0.26.1",
+    "got": "^12.0.3",
+    "najax": "^1.0.7",
+    "node-fetch": "^3.2.3",
+    "request": "^2.88.2",
+    "ws": "^8.5.0",
+    "xor-crypt": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.8",
+    "@types/ws": "^8.5.3"
+  }
+}
